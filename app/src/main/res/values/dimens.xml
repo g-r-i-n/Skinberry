@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+
+    <dimen name="spacing">10dp</dimen>
+    <dimen name="post_item_margin">10dp</dimen>
+    <dimen name="post_item_padding">5dp</dimen>
+    <dimen name="post_item_pic">80dp</dimen>
+    <dimen name="post_item_profile_pic">50dp</dimen>
+    <dimen name="post_item_profile_pic_small">32dp</dimen>
+    <dimen name="post_item_profile_info_padd">10dp</dimen>
+    <dimen name="post_item_profile_name">15dp</dimen>
+    <dimen name="post_item_timestamp">12dp</dimen>
+    <dimen name="post_item_status_pad_left_right">15dp</dimen>
+    <dimen name="post_item_status_pad_top">13dp</dimen>
+    <dimen name="post_item_corner_radius">3dp</dimen>
+    <dimen name="post_item_border_width">1dp</dimen>
+
+
+    <dimen name="post_single_padding_top">10dp</dimen>
+    <dimen name="post_single_name_margin">15dp</dimen>
+    <dimen name="post_single_padding">25dp</dimen>
+    <dimen name="post_single_name">36sp</dimen>
+    <dimen name="post_single_content">16sp</dimen>
+    <dimen name="post_single_content_lineHeight">2sp</dimen>
+    <dimen name="post_single_author_size">14sp</dimen>
+
+</resources>

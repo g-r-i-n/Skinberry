@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/post_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:layout_marginLeft="@dimen/post_item_margin"
+        android:layout_marginRight="@dimen/post_item_margin"
+        android:layout_marginTop="@dimen/post_item_margin"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/post_item_padding"
+        android:paddingTop="@dimen/post_item_padding" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/post_item_padding"
+            android:paddingRight="@dimen/post_item_padding" >
+
+            <com.wordpress.skinberry.utils.PostImageView
+                android:id="@+id/feedImage1"
+                android:layout_width="@dimen/post_item_pic"
+                android:layout_height="@dimen/post_item_pic"
+                android:background="@color/post_image_background"
+                android:scaleType="fitCenter"
+                android:visibility="visible" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/post_item_profile_info_padd" >
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/timestamp"
+                        android:gravity="right"
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/timestamp"
+                        android:textSize="@dimen/post_item_timestamp"
+                        android:editable="false"
+                        android:singleLine="true"
+                        android:layout_alignRight="@+id/category"
+                        android:layout_alignEnd="@+id/category"/>
+
+
+                    <TextView
+                        android:id="@+id/category"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/timestamp"
+                        android:textSize="@dimen/post_item_timestamp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+
+                </RelativeLayout>
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/post_item_profile_name"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

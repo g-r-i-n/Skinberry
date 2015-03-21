@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blog Press for WordPress</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="server_unavailable">The application server is unreachable. Please contact with server administrator.</string>
+    <string name="no_internet">No Internet</string>
+    <string name="no_internet_message">No internet connection available at the moment! Please check the internet connection.</string>
+    <string name="recently_added">Recently Added</string>
+    <string name="no_result">No result found</string>
+    <string name="notification_title">New Update</string>
+    <string name="notification_msg" formatted="false">You\'ve %d new updates.</string>
+    <string name="read_this_article">Read this article on the web</string>
+    <string name="unit_id">ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx</string>
+    <string name="unit_id_interstitial">ca-app-pub-xxxxxxxxxxxxxxxx/xxxxxxxxxx</string>
+
+    <string name="action_search">Search</string>
+    <string name="noresult">Sorry! No Result Found</string>
+    <string name="search_hint">Enter your Keyword to Search!</string>
+    <string name="loading_search_results">Loading more data...</string>
+
+    <string name="about_title">About BlogPress</string>
+    <string name="about_content">Develop an Native Android App for existing WordPress based Website. The Android App is rapidly developed using by just adding JSON Feeds.\n\r
+\n\rIt will have your custom icon/image or Logo as representation of Android App. On click the posts will show full description, links, images etc.\n\r
+\n\rThe posts will always be updated since we use JSON Feeds. List of latest posts will be displayed on Home screen.
+
+Drawer menu on the Action Bar will display the categories from WordPress using JSON feeds.</string>
+    <string name="about_version_title">Version</string>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-xxxxxxxx-x</string>
+
+    <integer name="ga_sessionTimeout">300</integer>
+
+    <bool name="ga_autoActivityTracking">true</bool>
+
+    <!-- the Local LogLevel for Analytics -->
+    <string name="ga_logLevel">verbose</string>
+
+    <!-- how often the dispatcher should fire -->
+    <integer name="ga_dispatchPeriod">2</integer>
+
+    <!-- Treat events as test events and don't send to google -->
+    <bool name="ga_dryRun">false</bool>
+
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.wordpress.skinberry.MainActivity">Main Activity</screenName>
+    <screenName name="com.wordpress.skinberry.GridFragment">Category Fragment</screenName>
+    <screenName name="com.wordpress.skinberry.SearchFragment">Search Fragment</screenName>
+    <screenName name="com.wordpress.skinberry.SplashActivity">Splash Activity</screenName>
+    <screenName name="com.wordpress.skinberry.AboutActivity">About Activity</screenName>
+    <screenName name="com.wordpress.skinberry.PostViewActivity">Post Activity</screenName>
+    <screenName name="com.wordpress.skinberry.SettingsActivity">Setting Activity</screenName>
+</resources>
